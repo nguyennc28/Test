@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31fae81e-4edf-4403-9016-a1862a428167}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RealEstate.DataAccess</RootNamespace>
+    <AssemblyName>RealEstate.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Transactions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvertiseDA.cs" />
+    <Compile Include="ApartmentDA.cs" />
+    <Compile Include="BannerDA.cs" />
+    <Compile Include="CategorysDA.cs" />
+    <Compile Include="CityDA.cs" />
+    <Compile Include="CompanysDA.cs" />
+    <Compile Include="ContractAdvertisingDA.cs" />
+    <Compile Include="ControlsDA.cs" />
+    <Compile Include="CustomersDA.cs" />
+    <Compile Include="DistrictDA.cs" />
+    <Compile Include="GroupDA.cs" />
+    <Compile Include="HomeDA.cs" />
+    <Compile Include="HomeTypeDA.cs" />
+    <Compile Include="LandDA.cs" />
+    <Compile Include="LandTypeDA.cs" />
+    <Compile Include="LanguageDA.cs" />
+    <Compile Include="LocationDA.cs" />
+    <Compile Include="MenusDA.cs" />
+    <Compile Include="MotelDA.cs" />
+    <Compile Include="MotelTypeDA.cs" />
+    <Compile Include="PagesDA.cs" />
+    <Compile Include="PostContractDA.cs" />
+    <Compile Include="ProductTypeDA.cs" />
+    <Compile Include="RealEstateNewsDA.cs" />
+    <Compile Include="RealEstateOwnersDA.cs" />
+    <Compile Include="RealEstateOwnersTypeDA.cs" />
+    <Compile Include="RealEstatesDA.cs" />
+    <Compile Include="RealEstateTypeDA.cs" />
+    <Compile Include="RegionDA.cs" />
+    <Compile Include="StaffDA.cs" />
+    <Compile Include="UsersDA.cs" />
+    <Compile Include="trace_xe_action_mapDA.cs" />
+    <Compile Include="trace_xe_event_mapDA.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessObjects\RealEstate.BusinessObjects.csproj">
+      <Project>{8EA354F0-D07D-4F30-8F92-0E472975BCC9}</Project>
+      <Name>RealEstate.BusinessObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

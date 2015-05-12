@@ -1,0 +1,6 @@
+I:\RealEstate\RealEstate.Common\obj\Debug\RealEstate.Common.csprojResolveAssemblyReference.cache
+I:\RealEstate\RealEstate.Common\bin\Debug\RealEstate.Common.dll
+I:\RealEstate\RealEstate.Common\bin\Debug\RealEstate.Common.pdb
+I:\RealEstate\RealEstate.Common\bin\Debug\FredCK.FCKeditorV2.dll
+I:\RealEstate\RealEstate.Common\obj\Debug\RealEstate.Common.dll
+I:\RealEstate\RealEstate.Common\obj\Debug\RealEstate.Common.pdb

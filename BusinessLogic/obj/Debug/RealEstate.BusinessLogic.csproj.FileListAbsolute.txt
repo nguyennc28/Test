@@ -1,0 +1,9 @@
+I:\RealEstate\BusinessLogic\bin\Debug\RealEstate.BusinessLogic.dll
+I:\RealEstate\BusinessLogic\bin\Debug\RealEstate.BusinessLogic.pdb
+I:\RealEstate\BusinessLogic\bin\Debug\RealEstate.BusinessObjects.dll
+I:\RealEstate\BusinessLogic\bin\Debug\RealEstate.DataAccess.dll
+I:\RealEstate\BusinessLogic\bin\Debug\RealEstate.BusinessObjects.pdb
+I:\RealEstate\BusinessLogic\bin\Debug\RealEstate.DataAccess.pdb
+I:\RealEstate\BusinessLogic\obj\Debug\RealEstate.BusinessLogic.csprojResolveAssemblyReference.cache
+I:\RealEstate\BusinessLogic\obj\Debug\RealEstate.BusinessLogic.dll
+I:\RealEstate\BusinessLogic\obj\Debug\RealEstate.BusinessLogic.pdb

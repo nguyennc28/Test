@@ -1,0 +1,7 @@
+I:\RealEstate\DataLayer\bin\Debug\RealEstate.DataAccess.dll
+I:\RealEstate\DataLayer\bin\Debug\RealEstate.DataAccess.pdb
+I:\RealEstate\DataLayer\bin\Debug\RealEstate.BusinessObjects.dll
+I:\RealEstate\DataLayer\bin\Debug\RealEstate.BusinessObjects.pdb
+I:\RealEstate\DataLayer\obj\Debug\RealEstate.DataAccess.csprojResolveAssemblyReference.cache
+I:\RealEstate\DataLayer\obj\Debug\RealEstate.DataAccess.dll
+I:\RealEstate\DataLayer\obj\Debug\RealEstate.DataAccess.pdb

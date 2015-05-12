@@ -1,0 +1,5 @@
+I:\RealEstate\BusinessObjects\bin\Debug\RealEstate.BusinessObjects.dll
+I:\RealEstate\BusinessObjects\bin\Debug\RealEstate.BusinessObjects.pdb
+I:\RealEstate\BusinessObjects\obj\Debug\RealEstate.BusinessObjects.dll
+I:\RealEstate\BusinessObjects\obj\Debug\RealEstate.BusinessObjects.pdb
+I:\RealEstate\BusinessObjects\obj\Debug\RealEstate.BusinessObjects.csprojResolveAssemblyReference.cache
